@@ -35,6 +35,12 @@ function deleteList(e) {
   let removeOne = e.target.parentElement;
   removeOne.remove();
 }
+// 엔터 키 감지 이벤트 추가
+addValue.addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    addTodo();
+  }
+});
 // 전체 삭제시
 function allClearList(e) {
   if (confirm("정말 삭제하시겠습니까?") == true) {

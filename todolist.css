@@ -1,0 +1,102 @@
+@charset "utf-8";
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.wrapper {
+  width: 800px;
+  height: 500px auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #010080;
+  margin-top: 30px;
+}
+/*  */
+.wrapper .inputField {
+  display: flex;
+  margin: 5px auto 20px;
+  width: 300px;
+}
+.xi-plus {
+  font-weight: bold;
+}
+/*  */
+header {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "DungGeunMo";
+  color: #ffff;
+  padding: 50px;
+  padding-top: 80px;
+}
+header p {
+  border-top: 1px solid #ffff;
+  border-bottom: 1px solid #ffff;
+  padding: 20px;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  left: -15px;
+}
+#addValue {
+  font-family: "DungGeunMo";
+  margin-right: 10px;
+}
+
+input {
+  border: none;
+  padding: 11px;
+  border-radius: 2px;
+}
+input:focus {
+  outline: none;
+  /* 폼 클릭 시 박스 바깥라인 없애줌 */
+}
+input [type="text"] {
+  float: left;
+}
+#result {
+  color: #ffff;
+  font-family: "DungGeunMo";
+}
+#allClear {
+  text-align: center;
+  font-family: "DungGeunMo";
+}
+.xi-plus {
+  width: 30px;
+  height: 30px;
+}
+.footer button {
+  font-size: 15px;
+  font-family: "DungGeunMo";
+  padding: 7px 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.todolist li {
+  width: 650px;
+  list-style: none;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 9px;
+  text-indent: 15px;
+  /* background-color: rgb(133, 193, 245); */
+  border-radius: 3px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: left;
+}
